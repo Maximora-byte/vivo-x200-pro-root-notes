@@ -1,0 +1,71 @@
+{
+  "published_date": "2026-11-13",
+  "timezone": "Asia/Shanghai",
+  "repository": "https://github.com/Maximora-byte/vivo-x200-pro-root-notes",
+  "blog_url": "https://blog.maximoraverse.org/posts/vivo-x200-pro-temporary-root-field-notes/",
+  "article_source_commit": "48fff871bf8837d77337914902795fe4255dffa0",
+  "article_source_sha256": "21622e2a30318acfea842bcb4e786ec9dfb8f33f00516114939cf5ab09cd4b24",
+  "validation": {
+    "privacy_and_internal_links": "passed",
+    "git_diff_check": "passed",
+    "astro_check": "passed in isolated current-production-source snapshot",
+    "astro_build": "passed",
+    "public_http": [
+      {
+        "path": "/posts/vivo-x200-pro-temporary-root-field-notes/",
+        "status": 200,
+        "bytes": 148946,
+        "sha256": "33e234ece30dd8ccf6ed08fa07fba6a825b7e025f7cf061481ce97717d0ff40f"
+      },
+      {
+        "path": "/",
+        "status": 200,
+        "bytes": 120262,
+        "sha256": "8b01b5b7298d5db9868b1c53c5f35f7f25b85623e3cacc49273a5a534dc1e99a"
+      },
+      {
+        "path": "/archive/",
+        "status": 200,
+        "bytes": 73523,
+        "sha256": "6aaade95fcad42fdeba8ef5023325b70219d6c5c6be234346a9eb85431611c5a"
+      },
+      {
+        "path": "/rss.xml",
+        "status": 200,
+        "bytes": 155658,
+        "sha256": "b4ed3c5dc8b02d0cd5f1c6c5ecce9b80f4193f404d77ab3e0c875adacad30fa8",
+        "rss_title": "vivo X200 Pro 临时 Root 完整实录：watchdog、系统备份、GKD 与 Zygisk 隐藏回退"
+      },
+      {
+        "path": "/sitemap-0.xml",
+        "status": 200,
+        "bytes": 3239,
+        "sha256": "3a25293956b91c05043d8161736283e1c5e63fdc819fa836da9be713878c1758"
+      },
+      {
+        "path": "/pagefind/pagefind-entry.json",
+        "status": 200,
+        "bytes": 181,
+        "sha256": "dee7c1039089ab5c05387860617c2b3dab7fa28be73350d357ae8ee3080f4341"
+      }
+    ],
+    "pagefind_query": "watchdog returned the new article",
+    "browser_widths_no_horizontal_overflow": [
+      1280,
+      390,
+      320
+    ],
+    "readable_chapters": 10,
+    "known_existing_console_issue": "An unchanged shared site script dynamically requests a missing command-palette asset (404); confirmed on an untouched older article. Article reading/search unaffected; no unrelated feature changes."
+  },
+  "publication_scope": {
+    "files_written": 13,
+    "existing_replaced": 6,
+    "new_files": 7,
+    "existing_files_byte_identical": 566,
+    "existing_html_byte_identical": 39,
+    "caddy_and_container_unchanged": true,
+    "private_server_paths_and_credentials_omitted": true
+  },
+  "hosted_ci": "not configured or claimed; content, build and live checks recorded separately"
+}

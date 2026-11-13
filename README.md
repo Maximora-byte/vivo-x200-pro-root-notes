@@ -34,6 +34,8 @@
 9. [只读验证命令与复核清单](docs/verification.md)。
 10. [公开材料和隐私边界](docs/evidence-and-privacy.md)。
 
+发布与线上验证见[发布收据](docs/publication.md)。
+
 机器可读摘要在 [evidence/](evidence/)，最终镜像核验过但未执行提权的配置在 [profiles/](profiles/)。
 
 博客版本：<https://blog.maximoraverse.org/posts/vivo-x200-pro-temporary-root-field-notes/>。
