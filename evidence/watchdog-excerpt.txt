@@ -1,0 +1,24 @@
+DE-IDENTIFIED TRANSCRIPTION, not a complete raw kernel log.
+Source: local bugreport / pstore / DropBox, collected 2026-11-13.
+Times below are monotonic seconds since the affected boot.
+
+[69.016848] dfroot cleared page cache for crash_dump64
+[69.016867] dfroot selinux_state permissive
+[69.024048] dfroot usermodehelper_exec returned 0
+[69.140714] ReSukiSU 35171, LKM initialized
+[69.222249] SELinux restored Enforcing
+[69.430291] BUG: scheduling while atomic: libksud.so/<PID>/0x00000002
+stack: syscall_trace_exit -> <unsymbolized callback A/B> -> do_exit
+       -> mmput -> __mmput -> exit_mmap -> unmap_vmas
+       -> unmap_page_range -> __pte_offset_map_lock -> _raw_spin_lock
+[90.484801] RCU stall, Comm: libksud.so
+[93.148989] multiple CPUs reported stalled
+[98.527874] watchdog kick=0x2e, check=0xff
+
+A separate earlier record:
+NULL access 0xa8; PC rt_mutex_setprio+0x2a0/0x4e8; Comm: id
+rt_mutex_adjust_prio_chain -> rt_mutex_adjust_pi -> __sched_setscheduler
+ -> __arm64_sys_sched_setattr
+
+Runtime addresses, PIDs, device identifiers and unrelated messages omitted.
+Unmapped callbacks are not assigned to a precise vr.ko symbol here.

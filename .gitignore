@@ -1,0 +1,24 @@
+# Private device / production material must not enter this public repo.
+.env
+.env.*
+*.pem
+*.key
+*.img
+*.img.*
+*.bin
+*.apk
+*.zip
+*.gz
+*.tar
+*.age
+*.log
+*.xml
+*.db
+*.db-*
+*.allowlist
+*.feature_config
+*.pcap*
+node_modules/
+dist/
+.private/
+__pycache__/

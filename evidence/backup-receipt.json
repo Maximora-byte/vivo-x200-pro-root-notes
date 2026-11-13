@@ -1,0 +1,18 @@
+{
+  "status": "completed",
+  "completed_at": "2026-11-13T10:33:11+08:00",
+  "partition_or_small_ufs_images": 108,
+  "base_boot_vendor_btf_verified": true,
+  "extra_partition_images_verified": 106,
+  "gpt_primary_and_backup_crc_verified": true,
+  "root_tool_apks": 5,
+  "personal_files_included": false,
+  "super_compressed_bytes": 15922730197,
+  "super_uncompressed_bytes": 18790481920,
+  "super_uncompressed_sha256": "22b4eef263c0db976d9807dbc26eb4de79d991eda9433b03702752873505a973",
+  "super_compressed_sha256": "e39e35971e7be97f444a40567864c7006994e8b36f1be6d7110941fa14510a61",
+  "phone_copy_retained": true,
+  "ghostlock_configuration_imported": true,
+  "ghostlock_exploit_tested": false,
+  "host_stored_bytes": 16583944789
+}

@@ -1,0 +1,41 @@
+{
+  "as_of": "2026-11-13",
+  "client_version": "1.13.1",
+  "subscription_id": 667,
+  "subscription_snapshot_version": 632,
+  "source_commit": "396e8e6f6a1cbf16237a0ebabfc811b358d2c142",
+  "update_interval_ms": 86400000,
+  "library_snapshot": {
+    "apps": 1003,
+    "app_groups": 2508,
+    "global_groups": 3
+  },
+  "device_loaded_snapshot": {
+    "apps": 31,
+    "app_groups": 119
+  },
+  "enabled_categories": [
+    "开屏广告",
+    "青少年模式",
+    "更新提示",
+    "评价提示",
+    "通知提示",
+    "局部广告",
+    "全屏广告",
+    "分段广告"
+  ],
+  "disabled_categories": [
+    "权限提示",
+    "功能类",
+    "其他"
+  ],
+  "protected_apps_count": 43,
+  "excluded_sensitive_groups_count": 33,
+  "app_ids_omitted_for_privacy": true,
+  "live_ad_skip_hit_observed": false,
+  "motion_policy": {
+    "apps": 53,
+    "mode": "deny first 6 seconds on app start",
+    "forever_deny_count": 0
+  }
+}

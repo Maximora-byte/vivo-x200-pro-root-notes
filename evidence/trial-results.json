@@ -1,0 +1,46 @@
+{
+  "outcome": "NyaZygisk trial not accepted; restored original NeoZygisk v2.4 build289",
+  "trial_candidate": "NyaZygisk v2.5 build351 c873f24",
+  "vector": "v2.2 build3080/API102, CLI success and manager Activated verified after final restore",
+  "native_detector": "7.7.0; Experimental=true, Custom ROM=true",
+  "observations": [
+    {
+      "environment": "Original NeoZygisk + working Vector",
+      "result": "Detected Zygisk (1)"
+    },
+    {
+      "environment": "NyaZygisk initial activation with Vector abnormal",
+      "result": "Environment normal; invalid as a working-Vector improvement claim"
+    },
+    {
+      "environment": "NyaZygisk clean activation, Vector active, manager process running",
+      "result": "Detected Zygisk (1)"
+    },
+    {
+      "environment": "NyaZygisk, Vector active, manager UI process terminated",
+      "result": "Environment normal on one scan"
+    },
+    {
+      "environment": "Original NeoZygisk control, Vector active, manager UI process terminated",
+      "result": "Detected Zygisk (1)"
+    },
+    {
+      "environment": "NyaZygisk reinstall/clean activation, Vector active, manager UI process terminated",
+      "result": "Detected Zygisk (1); prior improvement not reproducible"
+    }
+  ],
+  "activation_issue": "A stale old Vector/zygisk daemon survived the first simulated reboot, concurrent Vector startup crashed; cleared stale daemons and clean simulated restart restored manager activation. Trial-generated core file removed after retaining crash logs.",
+  "final_preservation": {
+    "full_reboots": 0,
+    "simulated_reboots": 5,
+    "selinux": "Enforcing",
+    "root": "uid=0 retained",
+    "financial_app_profiles": "byte-identical to pre-trial allowlist",
+    "kernel_feature_configuration": "same persisted key/value pairs; binary record ordering changed",
+    "gkd": "Bound service present, crashed services empty",
+    "original_binaries": "Three original NeoZygisk runtime binary hashes match official release ZIP",
+    "new_hide_modules_remaining": 0,
+    "kernel_boot_id_unchanged": true
+  },
+  "scope_limit": "Local detector only; no bank login/payment/trading or Play Integrity acceptance claimed"
+}

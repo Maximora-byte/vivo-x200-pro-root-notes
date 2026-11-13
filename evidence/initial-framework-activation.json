@@ -1,0 +1,32 @@
+{
+  "checked_at": "2026-11-13T11:00:32+08:00",
+  "activation_method": "ReSukiSU /data/adb/ksud soft-reboot",
+  "hardware_reboot_executed": false,
+  "kernel_boot_id_unchanged": true,
+  "kernel_uptime_continued": true,
+  "boot_completed": true,
+  "root_uid_zero": true,
+  "selinux": "Enforcing",
+  "NeoZygisk": {
+    "version": "2.4-289",
+    "monitor": "tracing",
+    "zygote64": "injected",
+    "daemon64": "running",
+    "loaded_zygisk_modules": [
+      "zygisk_vector"
+    ]
+  },
+  "Vector": {
+    "version": "2.2",
+    "build": 3080,
+    "api": 102,
+    "ipc_status_success": true,
+    "system_server_injected": true,
+    "enabled_xposed_modules": 0
+  },
+  "limits": [
+    "No functional Xposed module is installed or enabled, so individual module behavior has not been tested.",
+    "Startup log includes KernelSU-variant support warning and two init-group ioctl EPERM diagnostics; final framework injection succeeded.",
+    "Other startup compatibility diagnostics are retained in verbose log; this check does not establish long-term stability."
+  ]
+}

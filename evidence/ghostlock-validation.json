@@ -1,0 +1,28 @@
+{
+  "generated_at": "2026-11-13T00:32:33+08:00",
+  "release": "6.6.57-android15-8-ge9c3d7352454-abogki428077543-4k",
+  "active_slot": "_b",
+  "image_and_live_btf_sha256": "232e5cee7a38c944e103b58904e736c4bafda09d9b503a785c0f842faa40b833",
+  "task_struct_fields_checked": 15,
+  "symbol_offsets_checked": 10,
+  "physical_layout_checked_against": "live /proc/iomem + _stext - _text",
+  "init_cred": {
+    "decimal": 34473592,
+    "hex": "0x20e0678"
+  },
+  "pselect_waiter_shift": -2,
+  "slide_loggers_slot": "0x20c21b8",
+  "tracepoint_funcs_btf_offset": {
+    "decimal": 72,
+    "hex": "0x48"
+  },
+  "extractor_sha256": "fb11694a0a56f82b18e9488106084422b9ab62ec6da7eae39864827fa05dfe73",
+  "boot_sha256": "801c3950252db58dead345b68741b3297036b29c1cddebdf90975b8e5fe4d936",
+  "vendor_boot_sha256": "4c36c837ab64422aefa05c9f7b92f009cd841d81351cbaafcfe4b28a8dbd7656",
+  "required_geometry_complete": true,
+  "runtime_exploit_verified": false,
+  "configuration_file": "PD2405-6.6.57-from-device.conf",
+  "configuration_sha256": "275ddb5481cb6b7b253a9e5119d495887f0c12d13ba5bf0a9c51f0cd9720139b",
+  "public_copy_sha256": "2e682de999ea54cdd57c7dbb70945565795d8fe7c0f89420c4e74e2d94bba427",
+  "public_copy_format_note": "Public text copy normalizes line endings to LF; configuration_sha256 refers to the original PC/app-imported file."
+}

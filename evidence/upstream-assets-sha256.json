@@ -1,0 +1,11 @@
+{
+  "note": "Checksums of upstream assets used/reviewed in this session; binaries not redistributed.",
+  "sha256": {
+    "NeoZygisk-v2.4-289-release.zip": "93a1425c67bb89f58a0dcb9fc823ec93f6472214f221e667a70b67c6a6e061a1",
+    "Vector-v2.2-3080-Release.zip": "9ee8323575d615f7b3f1076ff60b2a63a49390ef11881b52632311a37f6f79cc",
+    "gkd-v1.13.1.apk": "8b90bb9e24e51255bb374367e43c41d0f62d835431e848ae0645c409452cb015",
+    "native-root-detector-v7.7.0.apk": "1033d24102af2632fe5c379e28c9ea9a20bc1d570e171ac3e50f8afd35fc4bd6",
+    "NyaZygisk-v2.5-351-release.zip": "ae0f3530af9474695908a7e21eb0896dcf4c3c07d35f2c118b12504721f0241d",
+    "Zygisk-Hide-v3.1.0-release.zip": "6cc4febad35433cd84970fd22890a07b4a208548eeb96e1e65c1d0ef11e3687e"
+  }
+}
